@@ -1,0 +1,7 @@
+<h1><%= pluralize(@movies.size, "Movie") %></h1>
+
+<ui>
+<% @movies.each do |movie| %>
+<li><%= movie %>
+<% end %>
+</ui>
